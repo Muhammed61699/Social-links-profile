@@ -25,7 +25,7 @@ html,body{
     width: min(98.5%, 26.7rem);
     margin: 1.5rem auto;
     border-radius: 15px;
-    padding: 2.2rem 2.4rem 1rem;
+    padding: 1.9rem 2.4rem 1rem;
     font-family: 'Outfit', sans-serif;
     font-size: 1rem;
     color: var(--Wenge-Brown);
@@ -48,7 +48,7 @@ h1{
     font-size: 2rem;
     font-weight:400 ;
     color: var(--White);
-    padding: 1.1rem 3.9rem;
+    padding: 0.1rem 3.9rem;
     text-align: center;
     
 }
@@ -63,7 +63,7 @@ p{
     color: var(--White);
     font-size: 1rem;
     font-weight:400 ;
-    padding: 1rem 1rem 1.8rem;
+    padding: 1rem 0.1rem 1.8rem;
     text-align: center;
 }
 .btn{
@@ -84,5 +84,23 @@ a:hover{
     background-color: var(--Green);
     color: var(--Dark-Grey);
 }
-.attribution{ font-size: 15px; text-align: center;margin-top: 0; }
+.attribution{ color: hsl(6, 77%, 37%); font-size: 15px; text-align: center;margin-top: 0; }
 .attribution a { color: hsl(228, 45%, 44%); }
+@media (max-width: 720px){
+    .main-card{
+        width: min(88.5%, 20.7rem);
+    }
+h1{
+        font-size: 1.4rem;
+        padding: 0.1rem 2.9rem;
+    }
+    h2{
+        padding: 1rem 0.1rem;
+    }
+  p{
+    font-size: 0.9rem;
+  }  
+
+  .attribution{ font-size: 10px;color: hsl(6, 77%, 37%) }
+  .attribution a { color: hsl(228, 45%, 44%); }
+}
